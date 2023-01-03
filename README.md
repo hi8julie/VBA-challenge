@@ -3,18 +3,25 @@
 Sub Stocks1()
 '
 'Looping through all tabs
+
 Dim ws As Worksheet
+
 For Each ws In Worksheets
 
 'Defining values
 
 Dim Ticker As String
+
 Dim OpenPrice As Double
     
 Dim Volume As Long
+
 Dim TickerUnique As String
+
 Dim YearChange As Double
+
 Dim PercentChange As Double
+
 Dim TotalVolume As Long
 
 Dim LastRow As Long
