@@ -2,8 +2,11 @@
 
 Sub Stocks1()
 '
+
 'Looping through all tabs
+    
     Dim ws As Worksheet
+    
     For Each ws In Worksheets
 
 'Defining values
